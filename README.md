@@ -2,7 +2,17 @@
 
 Simple weather application uses accuweather api to determine the weather of a city
 
+## App Demo
+
+![Weather Wizard](./screenshot.PNG)
+
 ## Getting started
+
+### Download
+
+```bash
+git clone git@github.com:akilany/Weather-Wizard.git
+```
 
 ### Install Dependencies
 
@@ -15,7 +25,3 @@ npm install
 ```bash
 npm run start
 ```
-
-## App Demo
-
-![Weather Wizard](./Screenshot.PNG)
