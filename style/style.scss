@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500&display=swap');
+
+$main-clr: #FF8066;
+$d-clr: #2b3550;
+$l-clr: #FCF8FF;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP',
+        Helvetica,
+        sans-serif;
+    background: $l-clr;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.main {
+    padding: 6rem 2rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+
+    .heading {
+        color: $main-clr;
+    }
+
+
+    .change-loc {
+        margin: 1rem 0 2rem;
+    }
+
+    .card {
+        overflow: hidden;
+        position: relative;
+        border: none;
+
+        .icon {
+            position: relative;
+            top: -50px;
+            border-radius: 50%;
+            width: 100px;
+            margin: auto;
+            margin-bottom: -50px;
+        }
+
+        .details {
+            padding: 3rem 0;
+
+            .cond {
+                background: $main-clr;
+                color: $l-clr;
+                position: absolute;
+                top: 1rem;
+                left: 0;
+                padding: 0.5rem 2rem;
+                border-radius: 0 20px 20px 0;
+            }
+
+            .temp {
+                color: $main-clr;
+                font-size: 2rem;
+                margin-top: 1rem;
+            }
+        }
+    }
+}

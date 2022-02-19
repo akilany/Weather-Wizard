@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans JP', Helvetica, sans-serif;
+  background: #FCF8FF;
+  overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.main {
+  padding: 6rem 2rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.main .heading {
+  color: #FF8066;
+}
+
+.main .change-loc {
+  margin: 1rem 0 2rem;
+}
+
+.main .card {
+  overflow: hidden;
+  position: relative;
+  border: none;
+}
+
+.main .card .icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin: auto;
+  margin-bottom: -50px;
+}
+
+.main .card .details {
+  padding: 3rem 0;
+}
+
+.main .card .details .cond {
+  background: #FF8066;
+  color: #FCF8FF;
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  padding: 0.5rem 2rem;
+  border-radius: 0 20px 20px 0;
+}
+
+.main .card .details .temp {
+  color: #FF8066;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

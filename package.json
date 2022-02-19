@@ -1,0 +1,18 @@
+{
+  "name": "weather-wizard",
+  "version": "1.0.0",
+  "description": "Simple weather application uses accuweather api to determine the weather of a city",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Ammar Yasser",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "node": "^17.4.0",
+    "nodemon": "^2.0.15"
+  }
+}
